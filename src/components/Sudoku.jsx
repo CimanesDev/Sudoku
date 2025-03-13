@@ -258,8 +258,7 @@ const Sudoku = () => {
   return (
     <div className={`app ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <div className="header">
-        <h1 className="title">
-          <span className="sudoku-text">Sudoku</span> 
+        <h1 className="title">Sudoku</h1>
           <span className="by-text">
             by <a 
               href="https://github.com/CimanesDev" 
@@ -270,10 +269,6 @@ const Sudoku = () => {
               CimanesDev
             </a>
           </span>
-        </h1>
-        
-        <div className="toggle-container">
-        </div>
       </div>
       
       <div className="game-info">
