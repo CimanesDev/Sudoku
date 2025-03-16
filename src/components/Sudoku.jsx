@@ -10,7 +10,7 @@ const Sudoku = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [timer, setTimer] = useState(0);
   const [timerRunning, setTimerRunning] = useState(true);
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(true); //for dark mode, not implemented since css toggle switch wont work
   const [hintsRemaining, setHintsRemaining] = useState(5);
 
   useEffect(() => {
